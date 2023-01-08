@@ -6,20 +6,20 @@ const Footer = () => {
   return (
     <footer style={bgStyle} className="mt-auto py-3 text-center">
       {/* <strong> &copy; 2019 </strong>*/}
-      Made with <i className="fas fa-heart"></i> by{" "}
+      rizzing ur mother <i className="fas fa-heart"></i> forever and ever.{" "}
       <a
         className="badge badge-dark"
         rel="noopener"
         href="https://github.com/xiaoAllen1"
         aria-label="My GitHub"
       >
-        Allen Yan
+       by wika sun,
       </a>{" "}
-      using <i className="fab fa-react"></i>
+     a person i think <i className="fas fa-minecraft"></i>
       <p>
         <small className="text-muted">
           {" "}
-          This is an open-source project. You can fork it and make your own
+          this is not an open-source project. you can not fork it and make your own
           version.
         </small>
       </p>

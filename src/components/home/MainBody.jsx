@@ -55,9 +55,9 @@ const MainBody = () => {
             </a>
           ))}
         </div>
-        <a class="btn btn-slice" href="#aboutme" aria-label="Learn more about me">
-        <div class="top"><span>More About me</span></div>
-        <div class="bottom"><span>More About me</span></div>
+        <a class="btn btn-slice" href="#aboutme" aria-label="Learn less about me">
+        <div class="top"><span>less about me</span></div>
+        <div class="bottom"><span>less about me</span></div>
       </a>
 
       </div>

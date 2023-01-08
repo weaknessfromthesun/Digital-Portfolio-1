@@ -23,9 +23,9 @@ const Contact = () => {
     return (
     <div className="contact-card">
         <div className="wrapper">
-            <h1 className="display-4 mb-5 text-center text-center">Interested in working together? <span>{emoji("☕")}</span></h1>
+            <h1 className="display-4 mb-5 text-center text-center">contact me frfr<span>{emoji("☕")}</span></h1>
             <div className="contact-seperate-section row">
-                <div className="col-md-6 text-center right-line d-flex flex-column justify-content-center align-items-center">Mobile <a href={"tel:+91-" + mobileNumber}>(+91) {mobileNumber}</a></div>
+                <div className="col-md-6 text-center right-line d-flex flex-column justify-content-center align-items-center">Mobile <a href={"tel:+1-" + mobileNumber}>(+1) {mobileNumber}</a></div>
                 <div className="col-md-6 text-center d-flex flex-column justify-content-center align-items-center">Email <a href={"mailto:" + emailId}>{emailId}</a> </div>
             </div>
             <div className="icons">

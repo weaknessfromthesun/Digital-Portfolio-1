@@ -16,61 +16,61 @@ const AboutMe = () => {
         params={{
           particles: {
             number: {
-              value: 20,
+              value: 16,
               density: {
                 enable: true,
                 value_area: 1000,
               }
             },
             "color": {
-              "value": ["#BD10E0", "#B8E986", "#50E3C2", "#FFD300", "#E86363"]
+              "value": ["#000000", "#EE0000"]
             },
             "shape": {
-              "type": "circle",
+              "type": "square",
               "stroke": {
-                "width": 0,
-                "color": "#b6b2b2"
+                "width": 1,
+                "color": "E10000"
               }
             },
             "opacity": {
-              "value": 0.5211089197812949,
-              "random": false,
-              "anim": {
-                "enable": true,
-                "speed": 1,
-                "opacity_min": 1,
-                "sync": false
-              }
-            },
-            "size": {
-              "value": 8.017060304327615,
+              "value": 0.87,
               "random": true,
               "anim": {
                 "enable": true,
-                "speed": 12.181158184520175,
+                "speed": 2,
+                "opacity_min": 0.7,
+                "sync": true
+              }
+            },
+            "size": {
+              "value": 8,
+              "random": false,
+              "anim": {
+                "enable": true,
+                "speed": 2,
                 "size_min": 0.1,
                 "sync": true
               }
             },
             "line_linked": {
               "enable": true,
-              "distance": 150,
-              "color": "#c8c8c8",
-              "opacity": 0.9,
-              "width": 1
+              "distance": 87,
+              "color": "#F00000",
+              "opacity": 1,
+              "width": 2
             },
             "move": {
               "enable": true,
-              "speed": 1,
+              "speed": 2,
               "direction": "none",
-              "random": false,
+              "random": true,
               "straight": false,
               "out_mode": "bounce",
-              "bounce": false,
+              "bounce": true,
               "attract": {
-                "enable": false,
-                "rotateX": 600,
-                "rotateY": 1200
+                "enable": true,
+                "rotateX": 400,
+                "rotateY": 800
               }
             }
           },
@@ -78,12 +78,12 @@ const AboutMe = () => {
             "detect_on": "canvas",
             "events": {
               "onhover": {
-                "enable": false,
+                "enable": true,
                 "mode": "repulse"
               },
               "onclick": {
-                "enable": false,
-                "mode": "push"
+                "enable": true,
+                "mode": "bubble"
               },
               "resize": true
             },
@@ -96,13 +96,13 @@ const AboutMe = () => {
               },
               "bubble": {
                 "distance": 400,
-                "size": 40,
-                "duration": 2,
-                "opacity": 8,
-                "speed": 3
+                "size": 4.8,
+                "duration": 0.8,
+                "opacity": 4,
+                "speed": 0.7
               },
               "repulse": {
-                "distance": 200,
+                "distance": 80,
                 "duration": 0.4
               },
               "push": {
@@ -120,7 +120,7 @@ const AboutMe = () => {
         <h1 className="display-4 mb-5 text-center">{aboutHeading}</h1>
         <div className="row">
           <div className="col-md-5 mt-5">
-            <p className="lead text-center"><span>Hi!</span><span className="wave-emoji">{emoji("👋")}</span>{aboutDescription}</p>
+            <p className="lead text-center"><span>yo! </span>{aboutDescription}</p>
             {resumeLink && (
               <p className="lead text-center">
                 <a

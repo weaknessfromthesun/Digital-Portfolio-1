@@ -41,7 +41,7 @@ const Navbar = (props) => {
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#projects"}
             >
-              Projects
+              projects.
             </a>
           </li>
           <li className="nav-item">
@@ -51,7 +51,7 @@ const Navbar = (props) => {
               target="_blank"
               rel="noreferrer noopener"
             >
-              Resume
+              resume.
             </a>
           </li>
           <li className="nav-item">
@@ -59,7 +59,7 @@ const Navbar = (props) => {
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#aboutme"}
             >
-              About
+              about me.
             </a>
           </li>
         </ul>
